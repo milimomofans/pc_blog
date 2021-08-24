@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Freckle+Face&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap');
+html{
+  font-size: 62.5%;
+}
+
+body {
+  cursor: url('assets/normal.png'),auto;
+}
+
+a {
+  cursor: url('assets/acursor.png'),auto;
+}
