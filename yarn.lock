@@ -2451,6 +2451,11 @@ alphanum-sort@^1.0.0:
   resolved "https://registry.npm.taobao.org/alphanum-sort/download/alphanum-sort-1.0.2.tgz#97a1119649b211ad33691d9f9f486a8ec9fbe0a3"
   integrity sha1-l6ERlkmyEa0zaR2fn0hqjsn74KM=
 
+animejs@^3.2.x:
+  version "3.2.1"
+  resolved "https://registry.nlark.com/animejs/download/animejs-3.2.1.tgz#de9fe2e792f44a777a7fdf6ae160e26604b0cdda"
+  integrity sha1-3p/i55L0Snd6f99q4WDiZgSwzdo=
+
 ansi-colors@^3.0.0:
   version "3.2.4"
   resolved "https://registry.npm.taobao.org/ansi-colors/download/ansi-colors-3.2.4.tgz?cache=0&sync_timestamp=1593529711167&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fansi-colors%2Fdownload%2Fansi-colors-3.2.4.tgz#e3a3da4bfbae6c86a9c285625de124a234026fbf"
@@ -9340,6 +9345,14 @@ raw-body@2.4.0:
     iconv-lite "0.4.24"
     unpipe "1.0.0"
 
+react-anime@^4.0.3, react-anime@^4.0.4:
+  version "4.0.4"
+  resolved "https://registry.nlark.com/react-anime/download/react-anime-4.0.4.tgz#60f3d179e730c63a117e012b2799230ea7dc59ea"
+  integrity sha1-YPPReecwxjoRfgErJ5kjDqfcWeo=
+  dependencies:
+    animejs "^3.2.x"
+    react-anime "^4.0.3"
+
 react-app-polyfill@^2.0.0:
   version "2.0.0"
   resolved "https://registry.npm.taobao.org/react-app-polyfill/download/react-app-polyfill-2.0.0.tgz#a0bea50f078b8a082970a9d853dc34b6dcc6a3cf"
@@ -9405,6 +9418,13 @@ react-is@^16.7.0, react-is@^16.8.1:
   version "17.0.2"
   resolved "https://registry.npm.taobao.org/react-is/download/react-is-17.0.2.tgz?cache=0&sync_timestamp=1617034529304&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Freact-is%2Fdownload%2Freact-is-17.0.2.tgz#e691d4a8e9c789365655539ab372762b0efb54f0"
   integrity sha1-5pHUqOnHiTZWVVOas3J2Kw77VPA=
+
+react-live2d@^1.0.31:
+  version "1.0.31"
+  resolved "https://registry.nlark.com/react-live2d/download/react-live2d-1.0.31.tgz#b9412c5842503d8dd8e9b7913c6b64680c430cb1"
+  integrity sha1-uUEsWEJQPY3Y6beRPGtkaAxDDLE=
+  dependencies:
+    whatwg-fetch "^3.0.0"
 
 react-refresh@^0.8.3:
   version "0.8.3"
@@ -11563,9 +11583,9 @@ whatwg-encoding@^1.0.5:
   dependencies:
     iconv-lite "0.4.24"
 
-whatwg-fetch@^3.4.1:
+whatwg-fetch@^3.0.0, whatwg-fetch@^3.4.1:
   version "3.6.2"
-  resolved "https://registry.npm.taobao.org/whatwg-fetch/download/whatwg-fetch-3.6.2.tgz?cache=0&sync_timestamp=1614452092270&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fwhatwg-fetch%2Fdownload%2Fwhatwg-fetch-3.6.2.tgz#dced24f37f2624ed0281725d51d0e2e3fe677f8c"
+  resolved "https://registry.nlark.com/whatwg-fetch/download/whatwg-fetch-3.6.2.tgz#dced24f37f2624ed0281725d51d0e2e3fe677f8c"
   integrity sha1-3O0k838mJO0CgXJdUdDi4/5nf4w=
 
 whatwg-mimetype@^2.3.0:

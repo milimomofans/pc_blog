@@ -4,11 +4,3 @@
 html{
   font-size: 62.5%;
 }
-
-body {
-  cursor: url('assets/normal.png'),auto;
-}
-
-a {
-  cursor: url('assets/acursor.png'),auto;
-}

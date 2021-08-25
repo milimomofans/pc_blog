@@ -28,9 +28,9 @@ export const BlogHome = () => {
     const [bannerIndex,setBannerIndex] = useState(0)
 
     return <Main>
-        <Swiper>
+        {/* <Swiper>
             <img alt="" src={banner[bannerIndex]}/>
-        </Swiper>
+        </Swiper> */}
         <HomeSlogon >
             <SayHello />
             <SlogonContainer />
@@ -164,15 +164,15 @@ const Main = styled.div`
     background:url(${backgournd});
 `
 
-const Swiper = styled.div`
-    width:100vw;
-    height:100vh;
-    position:relative;
-    img{
-        width:100%;
-        height:100%;
-    }
-`
+// const Swiper = styled.div`
+//     width:100vw;
+//     height:100vh;
+//     position:relative;
+//     img{
+//         width:100%;
+//         height:100%;
+//     }
+// `
 const HomeSlogon = styled.div`
     position:absolute;
     top:20rem;
